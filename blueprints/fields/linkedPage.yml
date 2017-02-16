@@ -1,0 +1,9 @@
+# site/plugins/linked-page/blueprints/fields/linkedPage.yml
+label: List of linked pages
+type: structure
+entry: >
+  <a href="/panel/pages/{{related}}/edit">{{related}}</a>
+fields:
+  related:
+    label: Page
+    type: page
