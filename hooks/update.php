@@ -25,7 +25,9 @@ $kirby->set('hook', ['panel.page.create', 'panel.page.update'], function($page, 
 
       $field = $matchedField[0];
       $collection = $page->$field()->toStructure();
-      $oldCollection = $oldPage->$field()->toStructure();
+      if ($oldPage) {
+        $oldCollection = $oldPage->$field()->toStructure();
+      }
 
       // Look for relation(s) to remove.
       foreach ($oldCollection as $item) {
