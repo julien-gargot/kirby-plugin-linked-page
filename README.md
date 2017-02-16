@@ -1,6 +1,8 @@
 # Kirby linked-page plugin
 
-Try to “syncronize” relations between pages so you can edit a relation on each linked pages.
+Try to “synchronize” relations between pages so you can edit a relation on each linked pages.
+
+![Animation showing relations](example.gif)
 
 ## Requirement and Settings
 
