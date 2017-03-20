@@ -15,6 +15,7 @@ $kirby->set('blueprint', 'fields/linkedPage', __DIR__ . '/blueprints/fields/link
 // Methods
 require_once __DIR__.DS.'methods'.DS.'add-to-structure.php';
 require_once __DIR__.DS.'methods'.DS.'remove-from-structure.php';
+require_once __DIR__.DS.'methods'.DS.'structure-to-json.php';
 
 // Hooks
 require_once __DIR__.DS.'hooks'.DS.'update.php';
