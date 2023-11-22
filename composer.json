@@ -1,0 +1,13 @@
+{
+	"name": "julien-gargot/linkedPages",
+	"description": "LinkedPages synchronize relations between pages",
+	"license": "CC BY-SA",
+	"type": "kirby-plugin",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Julien Gargot",
+			"email": "julien@g-u-i.net"
+		}
+	]
+}
